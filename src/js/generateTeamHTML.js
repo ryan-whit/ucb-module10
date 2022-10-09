@@ -81,10 +81,10 @@ const generateEngineerCard = (engineer) => {
 									Email: <a class="subtitle is-4" href="mailto:${engineer.email}">${engineer.email}</a>
 								</h2>
                 
-								<div class="box">
-                  <h2 class="subtitle is-4">GitHub Profile: ${engineer.github}</h2>
-                </div>
-         
+								<h2 class="box subtitle is-4">
+									GitHub: <a class="subtitle is-4" href="${engineer.github}">${engineer.github}</a>
+								</h2>
+                
 							</div>
             </div>
           
