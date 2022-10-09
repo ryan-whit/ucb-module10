@@ -1,3 +1,7 @@
+.card {
+    height: 100%;
+}
+
 .header-color {
     background-color: rgb(253, 98, 129);
     color: white;
